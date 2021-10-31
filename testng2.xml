@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/NewMaven_proj/src/test/java/SeleniumTest.java">
+        <classes>
+
+            <class name="SeleniumTest1"></class>
+        </classes>
+    </test>
+</suite>

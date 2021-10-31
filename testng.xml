@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <listeners>
+        <listener class-name="HomeWork.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Week4_Alin">
+        <classes>
+            <class name="HomeWork.Week4_Alin"></class>
+        </classes>
+    </test>
+    <test name="Week3_Alin">
+        <classes>
+            <class name="HomeWork.Week3_Alin"></class>
+        </classes>
+    </test>
+</suite>
